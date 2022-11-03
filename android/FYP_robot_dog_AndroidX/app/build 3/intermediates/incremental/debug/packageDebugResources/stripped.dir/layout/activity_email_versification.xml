@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/tvText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="VERIFICATION"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/back"
+            android:onClick="backPreviousPage"
+            android:layout_marginLeft="20dp"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Verification Code"
+            android:textSize="45dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="100dp"
+            android:onClick="previousMonthAction"
+            android:layout_gravity="center"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter code that we have sent to your email"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="your..@gmail.com"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+        <EditText
+            android:id="@+id/code1"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:maxLength="1"
+            android:textSize="25dp"
+            android:layout_marginLeft="15dp"
+            android:autoSizeTextType="none"
+            android:background="@drawable/email_verification_box"
+            android:inputType="number"
+            />
+
+        <EditText
+            android:id="@+id/code2"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="25dp"
+            android:maxLength="1"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/email_verification_box"
+            android:inputType="number"
+            />
+
+        <EditText
+            android:id="@+id/code3"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:maxLength="1"
+            android:textSize="25dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/email_verification_box"
+            android:inputType="number"
+            />
+
+        <EditText
+            android:id="@+id/code4"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:maxLength="1"
+            android:textSize="25dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/email_verification_box"
+            android:inputType="number"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="-60dp"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="sans-serif-black"
+            android:textAllCaps="false"
+            android:text="Submit"
+            android:onClick="Submit"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Resend code"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

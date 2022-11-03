@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundColor">#304156</color>
+    <color name="black">#FF000000</color>
+    <color name="lightBlack">#666666</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="red">#FF0000</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <string name="Login_Account">UserName/Email</string>
+    <string name="Login_Password">Password</string>
+    <string name="app_name">FYP_robot_dog_AndroidX</string>
+    <string name="date_time"><![CDATA[Date & Time]]></string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_createOrder_msg">Let’s enjoy our <font color="#F29810">Lightning-fast</font> &amp; <font color="#F29810">Reliable</font> delivery service right now!</string>
+    <style name="MyTabLayoutTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">22dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="Theme.FYP_robot_dog_AndroidX" parent="Theme.AppCompat.Light.DarkActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        
+    </style>
+</resources>

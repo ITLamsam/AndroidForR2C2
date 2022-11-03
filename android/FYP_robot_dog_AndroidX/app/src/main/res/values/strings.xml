@@ -1,0 +1,9 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">FYP_robot_dog_AndroidX</string>
+    <string name="Login_Account">UserName/Email</string>
+    <string name="Login_Password">Password</string>
+    <string name="date_time"><![CDATA[Date & Time]]></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="welcome_createOrder_msg">Let’s enjoy our <font color='#F29810'>Lightning-fast</font> &amp; <font color='#F29810'>Reliable</font> delivery service right now!</string>
+    <string name="pickup_item_welcome_message">Please click <font android:typeFace='bold'>OPEN BOX</font>  to unlock. If you don’t need the service, please click CANCEL.</string>
+</resources>

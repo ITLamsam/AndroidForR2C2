@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "com.example.fyp_robot_dog_androidx.app-mergeDebugResources-30:/layout/list_item_two.xml",
+        "source": "com.example.fyp_robot_dog_androidx.app-main-33:/layout/list_item_two.xml"
+    },
+    {
+        "merged": "com.example.fyp_robot_dog_androidx.app-mergeDebugResources-30:/layout/frag2_history_layout.xml",
+        "source": "com.example.fyp_robot_dog_androidx.app-main-33:/layout/frag2_history_layout.xml"
+    },
+    {
+        "merged": "com.example.fyp_robot_dog_androidx.app-mergeDebugResources-30:/layout/z_recycler_list_item_one.xml",
+        "source": "com.example.fyp_robot_dog_androidx.app-main-33:/layout/z_recycler_list_item_one.xml"
+    },
+    {
+        "merged": "com.example.fyp_robot_dog_androidx.app-mergeDebugResources-30:/layout/calendar_cell.xml",
+        "source": "com.example.fyp_robot_dog_androidx.app-main-33:/layout/calendar_cell.xml"
+    },
+    {
+        "merged": "com.example.fyp_robot_dog_androidx.app-mergeDebugResources-30:/layout/list_item_one.xml",
+        "source": "com.example.fyp_robot_dog_androidx.app-main-33:/layout/list_item_one.xml"
+    },
+    {
+        "merged": "com.example.fyp_robot_dog_androidx.app-mergeDebugResources-30:/layout/activity_sign_up.xml",
+        "source": "com.example.fyp_robot_dog_androidx.app-main-33:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "com.example.fyp_robot_dog_androidx.app-mergeDebugResources-30:/layout/z_main_recycler.xml",
+        "source": "com.example.fyp_robot_dog_androidx.app-main-33:/layout/z_main_recycler.xml"
+    },
+    {
+        "merged": "com.example.fyp_robot_dog_androidx.app-mergeDebugResources-30:/layout/activity_booking_calendar.xml",
+        "source": "com.example.fyp_robot_dog_androidx.app-main-33:/layout/activity_booking_calendar.xml"
+    },
+    {
+        "merged": "com.example.fyp_robot_dog_androidx.app-mergeDebugResources-30:/layout/layout_home_bottom_menu.xml",
+        "source": "com.example.fyp_robot_dog_androidx.app-main-33:/layout/layout_home_bottom_menu.xml"
+    },
+    {
+        "merged": "com.example.fyp_robot_dog_androidx.app-mergeDebugResources-30:/layout/fragment_home__page.xml",
+        "source": "com.example.fyp_robot_dog_androidx.app-main-33:/layout/fragment_home__page.xml"
+    },
+    {
+        "merged": "com.example.fyp_robot_dog_androidx.app-mergeDebugResources-30:/layout/activity_email_versification.xml",
+        "source": "com.example.fyp_robot_dog_androidx.app-main-33:/layout/activity_email_versification.xml"
+    },
+    {
+        "merged": "com.example.fyp_robot_dog_androidx.app-mergeDebugResources-30:/layout/activity_main.xml",
+        "source": "com.example.fyp_robot_dog_androidx.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.fyp_robot_dog_androidx.app-mergeDebugResources-30:/layout/frag1_order_layout.xml",
+        "source": "com.example.fyp_robot_dog_androidx.app-main-33:/layout/frag1_order_layout.xml"
+    }
+]

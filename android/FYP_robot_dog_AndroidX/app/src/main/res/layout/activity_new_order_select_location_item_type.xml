@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/tvText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="LOCATION &amp; ITEM TYPE"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginTop="8dp"
+            android:onClick="Back"
+            android:layout_marginLeft="20dp"
+            android:text="Back"
+            android:textSize="18dp"
+            android:background="@drawable/dark_button"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="8dp"
+            android:text="Next"
+            android:onClick="submit"
+            android:textSize="18dp"
+            android:textAllCaps="false"
+            android:background="@drawable/white_button"
+            android:layout_marginLeft="20dp"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        android:text="Location"
+        android:textColor="@color/white"
+        />
+
+    <Spinner
+        android:id="@+id/startPoint"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:paddingStart="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Location: Start point"
+        android:background="@drawable/drop_down_textbox"
+        android:spinnerMode="dropdown"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/map"
+        />
+
+    <Spinner
+        android:id="@+id/endPoint"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:paddingStart="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Location: Start point"
+        android:background="@drawable/drop_down_textbox"
+        android:spinnerMode="dropdown"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/map"
+        />
+
+
+<!--    <EditText-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:layout_marginRight="30dp"-->
+<!--        android:id="@+id/endPoint"-->
+<!--        android:paddingStart="15dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:background="@drawable/edit_background"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:fontFamily="sans-serif-medium"-->
+<!--        android:hint="Location: End point"-->
+<!--        android:textColorHint="@color/white"-->
+<!--        android:drawablePadding="10dp"-->
+<!--        android:drawableStart="@drawable/map"-->
+<!--        />-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item Type"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="40dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="fill"
+                android:text="Food"
+                android:id="@+id/food"
+                android:paddingLeft="20dp"
+                android:textSize="20dp"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/food"
+                android:textColor="@color/white"
+                android:background="@drawable/item_view_item_type_selector_style_one"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Education materials "
+                android:id="@+id/education"
+                android:gravity="fill"
+                android:paddingLeft="20dp"
+                android:textSize="20dp"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/bookmark"
+                android:textColor="@color/white"
+                android:background="@drawable/item_view_item_type_selector_style_two"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Cleaning utensils"
+                android:id="@+id/clean"
+                android:gravity="fill"
+                android:paddingLeft="20dp"
+                android:textSize="20dp"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/broom"
+                android:textColor="@color/white"
+                android:background="@drawable/item_view_item_type_selector_style_two"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Confidential document"
+                android:gravity="fill"
+                android:id="@+id/confid"
+                android:paddingLeft="20dp"
+                android:textSize="20dp"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/document"
+                android:textColor="@color/white"
+                android:background="@drawable/item_view_item_type_selector_style_two"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Chemical materials"
+                android:gravity="fill"
+                android:id="@+id/chenical"
+                android:paddingLeft="20dp"
+                android:textSize="20dp"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/experiment"
+                android:textColor="@color/white"
+                android:background="@drawable/item_view_item_type_selector_style_two"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Electronics"
+                android:gravity="fill"
+                android:id="@+id/elect"
+                android:paddingLeft="20dp"
+                android:textSize="20dp"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/electronics"
+                android:textColor="@color/white"
+                android:background="@drawable/item_view_item_type_selector_style_three"
+                />
+
+        </LinearLayout>
+        
+</LinearLayout>

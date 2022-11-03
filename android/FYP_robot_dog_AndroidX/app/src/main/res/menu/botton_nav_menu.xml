@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="New Order"
+        android:icon="@drawable/neworder"
+        android:id="@+id/newOrder"
+
+        />
+    <item android:title="Home"
+        android:icon="@drawable/home"
+        android:id="@+id/iconHome"
+        android:enabled="false"
+        />
+    <item android:title="Dog Guide"
+        android:icon="@drawable/dogguide"
+        android:id="@+id/dogGuide"
+        />
+</menu>
